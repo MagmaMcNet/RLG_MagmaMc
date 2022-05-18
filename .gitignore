@@ -3,6 +3,7 @@ Game/
 __pycache__/
 ServerData/
 dist/
+dist/RLG/
 !dist/Run*.exe
 Log.log
 ServerLog.log
