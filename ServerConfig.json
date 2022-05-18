@@ -1,4 +1,6 @@
 {
+	// PLEASE RUN RUN_FILEZ_SERVER.BAT
+	// BEFORE STARTING Server
 	"DiscordRichPresence": true,
 	"Modloader": {
 		"Mods": [

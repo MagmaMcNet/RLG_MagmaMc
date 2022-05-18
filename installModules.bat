@@ -1,3 +1,4 @@
+@echo off
 :check_Permissions
 net session >nul 2>&1
 if %errorLevel% == 0 (
@@ -11,3 +12,8 @@ if %errorLevel% == 0 (
 :try
 py -m pip install --upgrade pip
 pip install requests --force
+pip install pgzero --force
+pip install pypresence --force
+pip install commentjson --force
+echo done
+timeout /t 5 >nul

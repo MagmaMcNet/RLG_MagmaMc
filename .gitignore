@@ -9,5 +9,10 @@ ServerLog.log
 Run*.py
 !Run_*.*
 publish/
-_*.*
+*.spec
+build/
+dist/Run*.exe
+_*.py
+_*.json
+
 !__*.*
