@@ -2,10 +2,8 @@ logs/
 Game/
 __pycache__/
 ServerData/
-dist/Data/
-dist/RLG/
-dist/Server/
-dist/*.zip
+dist/
+!dist/Run*.exe
 Log.log
 ServerLog.log
 Run*.py
@@ -15,5 +13,4 @@ publish/
 build/
 _*.py
 _*.json
-
 !__*.*
