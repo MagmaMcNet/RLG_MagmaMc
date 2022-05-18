@@ -1,0 +1,87 @@
+{
+	"Name": "Core Enemies",
+	"uuid": "7ea11d4f-8b2d-47d7-9ba8-fe5bcc93551b",
+	"Author": "MagmaMc",
+
+	"Enemies": [
+		{
+			"Wave": 1,
+			"StopWave": 4,
+			"HP": 5,
+			"Damage": 5,
+			"Color": [64, 170, 100], // Green
+			"Image": "b23762d2-1730-461c-bcc6-c54683306283"
+		},
+		{
+			"Wave": 2,
+			"StopWave": 6,
+			"HP": 10,
+			"Damage": 5,
+			"Color": [255, 0, 0], // Red
+			"Image": "b23762d2-1730-461c-bcc6-c54683306283"
+		},
+		{
+			"Wave": 5,
+			"StopWave": 15,
+			"HP": 25,
+			"Damage": 1,
+			"Color": [200, 200, 0], // Yellow
+			"Image": "b23762d2-1730-461c-bcc6-c54683306283"
+		},
+		{
+			"Wave": 6,
+			"StopWave": 15,
+			"HP": 10,
+			"Damage": 10,
+			"Color": [10, 255, 10], // Dark Green
+			"Image": "b23762d2-1730-461c-bcc6-c54683306283"
+		},
+		{
+			"Wave": 8,
+			"StopWave": 100,
+			"HP": 25,
+			"Damage": 10,
+			"Color": [63, 0, 255], // Purple
+			"Image": "b23762d2-1730-461c-bcc6-c54683306283"
+		},
+		{
+			"Wave": 8,
+			"StopWave": 100,
+			"HP": 25,
+			"Damage": 15,
+			"Color": [212, 175, 55], // Gold
+			"Image": "b23762d2-1730-461c-bcc6-c54683306283"
+		},
+		{
+			"Wave": 8,
+			"StopWave": 100,
+			"HP": 25,
+			"Damage": 20,
+			"Color": [0, 25, 255], // cyan
+			"Image": "b23762d2-1730-461c-bcc6-c54683306283"
+		},
+		{
+			"Wave": 10,
+			"StopWave": 100,
+			"HP": 30,
+			"Damage": 20,
+			"Color": [0, 0, 225], // Dark Blue
+			"Image": "b23762d2-1730-461c-bcc6-c54683306283"
+		},
+		{
+			"Wave": 12,
+			"StopWave": 100,
+			"HP": 35,
+			"Damage": 25,
+			"Color": [10, 245, 10], // lime
+			"Image": "b23762d2-1730-461c-bcc6-c54683306283"
+		}
+	],
+	"Images": {
+		"b23762d2-1730-461c-bcc6-c54683306283": {
+
+			"FileName": "Core_default.png", 
+			"Scale": 4
+		}
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"Name": "E Enemies",
+	"uuid": "ac1f0926-22f5-4a0b-ad40-dd9596dff3ae",
+	"Author": "MagmaMc",
+
+	"Enemies": [
+		{
+			"Wave": 1,
+			"StopWave": 100,
+			"HP": 30,
+			"Damage": 20,
+			"Color": [0, 0, 225], // Dark Blue
+			"Image": "b41e046f-5551-4f72-bbe0-2a6f82872c47"
+		},
+		{
+			"Wave": 1,
+			"StopWave": 100,
+			"HP": 35,
+			"Damage": 25,
+			"Color": [255, 0, 10], // red
+			"Image": "b41e046f-5551-4f72-bbe0-2a6f82872c47"
+		},
+		{
+			"Wave": 1,
+			"StopWave": 100,
+			"HP": 35,
+			"Damage": 25,
+			"Color": [10, 245, 10], // lime
+			"Image": "b41e046f-5551-4f72-bbe0-2a6f82872c47"
+		}
+	],
+	"Images": {
+		"b41e046f-5551-4f72-bbe0-2a6f82872c47": {
+			//Recommended to use MODNAME_image.pg
+			//images stored in Mods/images/
+			//Image Border: (100, 0, 255)
+			//Image Body: (255, 0, 100)
+			//Image Darken: (100, 0, 100)
+
+			"FileName": "E_Mod_default.png", 
+			"Scale": 4 // How Much to Scale Up the Image
+			// 4x Scale for 16x16 images
+		}
+	}
+}

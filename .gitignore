@@ -1,0 +1,13 @@
+logs/
+Game/
+__pycache__/
+ServerData/
+output/Data/
+output/RLG/
+Log.log
+ServerLog.log
+Run*.py
+!Run_*.*
+publish/
+_*.*
+!__*.*

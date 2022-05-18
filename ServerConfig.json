@@ -1,0 +1,10 @@
+{
+	"DiscordRichPresence": true,
+	"Modloader": {
+		"Mods": [
+			"Core_Enemies.json",
+			"E_Mod.json"
+		],
+		"Enabled": true
+	}
+}
