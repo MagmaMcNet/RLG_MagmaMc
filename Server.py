@@ -2,6 +2,7 @@
 # imported files http://magma-mc.net/Share/MagmaMc_RLG/files/
 import time, threading, uuid
 import filez
+from filez import WebSocket
 import pgzrun
 from pgzero.builtins import Actor, keys, clock
 from pypresence import Presence
