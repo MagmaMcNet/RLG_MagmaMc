@@ -130,7 +130,7 @@ def getplayer():
     for playerfilename in playerdata:
         
         if playerfilename != ".json" and playerfilename != '[':
-            playerfile = filez.fread("/"+str(playerfilename))
+            playerfile = filez.fread("Saves/"+str(playerfilename))
             try:
                 
                 otherplayer = Actor('player'+playerfile["randomskin"], bottomleft=(float(playerfile["x"]), float(playerfile["y"])) )

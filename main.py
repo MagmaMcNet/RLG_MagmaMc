@@ -78,9 +78,9 @@ clock.schedule_interval(updatefps, 0.1)
 
 
 def DownloadImages():
-    images = filez.scan('Mods/Images/')
+    images = filez.scan('images/')
     for image in images:
-        filez.download("Mods/Images/"+image, image)
+        filez.download("images/"+image, image)
 def getplayer():
     global players, leaderboard, enemies
     if gameMode == "Game":
@@ -94,7 +94,7 @@ def getplayer():
             pass
         for playerfilename in playerdata:
             if playerfilename != username+".json" and playerfilename != ".json" and playerfilename != '[':
-                playerfile = filez.fread("/"+str(playerfilename))
+                playerfile = filez.fread("Saves/"+str(playerfilename))
                 try:
                     
                     otherplayer = Actor('player'+playerfile["randomskin"], bottomleft=(float(playerfile["x"]), float(playerfile["y"])) )
@@ -604,11 +604,11 @@ def ConnectToServer():
             wrongPass = False
             CreateAccount = False
             try:
-                userdatatemp = filez.fread("/"+username+".json")
+                userdatatemp = filez.fread("Saves/"+username+".json")
                 savedpass = userdatatemp["password"]
             
                 if savedpass == inputpass:
-                    userdata = filez.fread("/"+username+".json")
+                    userdata = filez.fread("Saves/"+username+".json")
                     a_left = float(userdata["x"])
                     a_top = float(userdata["y"])
                     a_damage = int(userdata["Damage"])
@@ -623,7 +623,7 @@ def ConnectToServer():
                     raise
                 else:
                     try:
-                        userdata = filez.fread("/"+username+".json")
+                        userdata = filez.fread("Saves/"+username+".json")
                         userdata["y"] = str(player.bottom)
                         userdata["x"] = str(player.left)
                         userdata.update({"password": inputpass})
@@ -634,7 +634,7 @@ def ConnectToServer():
                         userdata.update({"Health": "100"})
                         userdata.update({"Wave": "1"})
                         userdata.update({"Kills": "0"})
-                        filez.fwrite("/"+username+".json", json.dumps(userdata, sort_keys=True, indent=4), "c")
+                        filez.fwrite("Saves/"+username+".json", json.dumps(userdata, sort_keys=True, indent=4), "c")
                     except:
                         pass
 
